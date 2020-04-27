@@ -4,7 +4,7 @@ require 'pry'
 
 
 def load_library(file)
-  emo = YAML.load(file)
+  emo = YAML.load_file(file)
   binding.pry
   # code goes here
 end
